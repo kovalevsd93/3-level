@@ -379,7 +379,17 @@ h1 .grad{
   writing-mode:vertical-rl; font-size:.74rem; letter-spacing:.22em; text-transform:uppercase;
   color:var(--ink-3); padding-right:14px; align-self:flex-end;
 }
-@media(max-width:760px){.axis-note{font-size:.6rem; letter-spacing:.04em}.axis-arrow{display:none}}
+@media(max-width:860px){.axis-note{font-size:.62rem; letter-spacing:.04em}.axis-arrow{display:none}}
+.axis-mobile{display:none}
+@media(max-width:700px){
+  .strata-wrap{grid-template-columns:1fr; margin-top:14px}
+  .axis{display:none}
+  .axis-mobile{
+    display:block; margin-top:30px;
+    font-size:.72rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ink-3);
+  }
+}
 .strata{display:flex; flex-direction:column; gap:14px}
 .slab{
   position:relative; overflow:hidden;
@@ -702,6 +712,7 @@ footer .brand .wm b,footer .brand .wm span{font-size:.82rem}
       <p class="lead">Три уровня, на которых одновременно существует проблема клиента. Модель показывает, где расположено то, что вы наблюдаете в кабинете, и на какой глубине нужно работать сейчас.</p>
     </div>
 
+    <p class="axis-mobile">Сверху вниз — от поверхности к основанию личности</p>
     <div class="strata-wrap">
       <div class="axis">
         <span class="axis-note">поверхность<br>наблюдаемое</span>
