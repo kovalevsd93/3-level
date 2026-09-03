@@ -12,7 +12,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Обновлённая программа Павла Федоренко для выпускников Института КПТ: трёхуровневая модель тревоги, 9 месяцев обучения, 19 900 ₽.">
+<meta name="description" content="Обновлённая программа Павла Федоренко для выпускников Института КПТ: трёхуровневая модель тревоги, 9 месяцев обучения, 29 900 ₽.">
 <style>:root{color-scheme:light dark}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
